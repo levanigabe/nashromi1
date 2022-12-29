@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+.header {
+    display: block;
+    padding: 20px;
+    background-color: #1abc9c;
+    color: white;
+    font-size: 8px;
+    background-color: #333;
+    border-bottom-color: 1px solid #444;
+    max-height: 60px;
+    position: relative;
+    margin-top: -7px;
+}
+body{
+    background-color: white;
+
+}
+.text1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+.photo1{
+    margin-left: 1435px;
+    margin-top: -45px;
+}
+.photo2{
+    margin-left: 1375px;
+    margin-top: -55px;
+}
+.photo3{
+    margin-left: 1315px;
+    margin-top: -47px;
+}
+.photo4{
+    margin-left: 1275px;
+    margin-top: -38px;
+}
+.photo5{
+    margin-left: 1215px;
+    margin-top: -45px;
+}
+.navi{
+
+margin-top: 50px;
+}
+ul{
+    list-style-type: none;
+    margin-top: 55px;
+    margin-left: 620px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li{
+    float: left;
+}
+li a{
+    display:block;
+    color: wheat;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+li a:hover {
+    color:#20c997
+}
+.gallery{
+    display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 25px;
+max-width: 1400px;
+margin-top: 150px;
+padding: 25px 10px;
+margin-left: 30px;
+}
+.gallery img{
+    width: 100%;
+    max-width: 450px;
+    height: 450px;
+    object-fit: fill;
+    border-radius: 0px;
+}
+.botasi{
+    color: white;
+    position: absolute;
+    margin-left: -960px;
+    margin-top: -1000px;
+    font-size: 22px
+}
+.jinsi{
+ margin-top: -1000px;
+ font-size: 22px;
+color: white;
+position: absolute;
+    
+}
+.jns{
+    margin-top: -1000px;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    margin-left: 1050px;
+
+}
+.nike{
+    margin-top: -1000px;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    margin-left: 1050px;
+
+}
+.sarochka{
+    margin-top: -1000px;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    margin-left: 1050px;
+
+}
+.bavshvebi{
+    margin-top: -1000px;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    margin-left: 1050px;
+
+}
+@media (min-width:481px) and (max-widht:768px) {}
+@media (min-width:769){}
+
+
+
+
+@media only screen and (max-width:620px) {.text1,
+
+    .photo1, 
+    
+    .photo2,
+    
+    .photo3, 
+    
+    .photo4, 
+    
+    .photo5, 
+.gallery
+.jinsi
+.jns
+.nike
+.bavshvebi
+.botasi
+.header
+.navi
+.sarochka
+.text1
+{width: 100%;}
